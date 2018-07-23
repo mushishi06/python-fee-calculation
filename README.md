@@ -9,7 +9,7 @@ The fee should then be "rounded" such that (fee + loan amount) is an exact multi
 
 The minimum amount for a loan is £1,000, and the maximum is £20,000.
 
-You can assume values will always be within this range but they may be any value up to 2 decimal places. 
+You can assume values will always be within this range but they may be any value up to 2 decimal places.
 
 The term can be either 12 or 24 (number of months),
 you can also assume values will always be within this set.
@@ -58,3 +58,7 @@ Loan Amount | Fees Term 12 |  Fees Term 24
 £18000: | £360 | £720
 £19000: | £380 | £760
 £20000: | £400 | £800
+
+# Test
+
+Run `pyhton test.py`
